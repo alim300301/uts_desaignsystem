@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+  }
+  
+  .content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100px; /* Sesuaikan ukuran logo sesuai kebutuhan */
+    margin-left: 20px;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .container {
+    padding: 20px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar li {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .homeMenu {
+    color: rgb(20, 19, 24);              /* Warna teks khusus */
+    font-weight: bold;          /* Teks lebih tebal */
+    border-radius: 5px;         /* Sudut membulat */
+  }
+  
+  .homeMenu:hover {
+    background-color: #2155a3; /* Efek hover pada menu Home */
+  }
+  

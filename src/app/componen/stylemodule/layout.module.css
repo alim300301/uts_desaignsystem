@@ -1,0 +1,60 @@
+/* components/Layout.module.css */
+
+.sidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    background: linear-gradient(90deg, #03ac84, #06d6f1);
+    color: #fff;
+    transition: background 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.sidebar nav ul {
+    display: flex;
+    list-style-type: none;
+    flex: 1;
+    text-align: right;
+}
+
+.sidebar nav ul li {
+    margin-left: 20px;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 8px, 12px;
+}
+
+.sidebar nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: smaller;
+    text-transform: capitalize;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.sidebar nav ul li a:hover {
+    background: #ffffff;
+    color: #000000;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    z-index: 100;
+    background-clip: padding-box;
+    background-origin: border-box;
+    background-size: 100% 100%;
+    transition: background 0.3s ease;
+}
+
+.main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+}

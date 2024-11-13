@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20 px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    border: 2px solid #ddd; 
+}
+
+.container--small {
+    max-width: 600px;
+    padding: 5px;
+    border: 2px solid red;
+}
+
+.container--medium {
+    max-width: 900px;
+    padding: 5px;
+    border: 2px solid blue;
+}
+
+.container--large {
+    max-width: 1200px;
+    padding: 5px;
+    border: 2px solid green; /* Border untuk menandakan ukuran besar */
+}
+
+.container--xlarge {
+    max-width: 1500px;
+    padding: 5px;
+    border: 2px solid orange; /* Border untuk menandakan ukuran sangat besar */
+}
+
+.container--xxlarge {
+    max-width: 1800px;
+    padding: 5px;
+    border: 2px solid purple; /* Border untuk menandakan ukuran extra besar */
+}

@@ -1,0 +1,140 @@
+/* 1 */
+.contact-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-info p {
+    margin: 5px 0;
+    color: #555;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 2 */
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: #0073e6;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #005bb5;
+}
+.social-media {
+    text-align: center;
+    margin-top: 10 rem;
+}
+
+.social-media p {
+    font-size: 10 rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.social-icon {
+    font-size: 10 rem;
+    margin: 0 0.5rem;
+    color: #dd0ea9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #cf0c7e;
+}

@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  .login-container {
+    width: 300px;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 1em;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #666;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.8em;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+
+  /* 2 */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  .login-container {
+    width: 350px;
+    padding: 2.5em;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .login-container:hover {
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    margin-bottom: 0.5em;
+    color: #444;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  p {
+    margin-bottom: 2em;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5em;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 0.3em;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.9em;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #6e8efb;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.9em;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #5b7ef8, #9668e1);
+    transform: translateY(-3px);
+  }
+
+  /* 3 */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }  
+  .login-container {
+    width: 350px;
+    padding: 2.5em;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .login-container:hover {
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    margin-bottom: 0.5em;
+    color: #444;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  p {
+    margin-bottom: 2em;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5em;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 0.3em;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.9em;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #6e8efb;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.9em;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #5b7ef8, #9668e1);
+    transform: translateY(-3px);
+  }
+  
+  .options {
+    margin-top: 1em;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .options a {
+    color: #6e8efb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .options a:hover {
+    color: #5b7ef8;
+  }
+  
+  .social-login {
+    margin-top: 1.5em;
+  }
+  
+  .social-login p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 0.5em;
+  }
+  
+  .social-btn {
+    width: 100%;
+    padding: 0.9em;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0.5em;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-btn.google {
+    background-color: #db4437;
+  }
+  
+  .social-btn.google:hover {
+    background-color: #c33a29;
+  }
+  
+  .social-btn.facebook {
+    background-color: #3b5998;
+  }
+  
+  .social-btn.facebook:hover {
+    background-color: #334d84;
+  }
+  
